@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Birthday Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="gift.css">
+</head>
+
+<body>
+  <canvas id="confetti-canvas"></canvas>
+  <nav>
+    <div class="nav flex">
+      <div class="nav-left">birthday girl ❤️🎂</div>
+      <div class="nav-right">
+        <ul class="flex">
+          <li>home</li>
+          <li>gift</li>
+          <li>wish</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="flex-col">
+    <h1 style="margin-top: 30px; color: #53022d; font-size: 2.5rem;">🎂 Birthday Countdown 🎂</h1>
+    <div class="countdown" id="countdown">Loading...</div>
+
+    <div class="main-gift flex-col" style="margin-top: 40px;">
+      <div class="box"><img id="giftBox" src="images/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA4L3Jhd3BpeGVsb2ZmaWNlMTVfaXNvbGF0ZWRfM2RfaWxsdXN0cmF0aW9uX29mX3BpbmtfYmlydGhkYXlfZ2lmdF8zZjcyMmE2OC05ZmI3LTQyNTctODMyZi05MTNhZjZhN2NiZTlfMS5wbmc-removebg-pre.png" alt="gift" /></div>
+    </div>
+
+    <div class="image-row" id="imageRow">
+      <img src="images/WhatsApp Image 2025-06-06 at 01.43.00_5986cc18.jpg" />
+      <img src="images/WhatsApp Image 2025-06-06 at 01.43.14_9a9ab064.jpg" />
+      <img src="images/WhatsApp Image 2025-06-06 at 01.47.35_e88510f5.jpg" />
+      <img src="images/WhatsApp Image 2025-06-06 at 01.51.20_0055ec67.jpg" />
+      <img src="images/WhatsApp Image 2025-06-06 at 01.51.20_dfa5164b.jpg" />
+    </div>
+
+    <div class="typing-message" id="message"></div>
+  </header>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="gift.js"></script>
+</body>
+
+</html>
+
